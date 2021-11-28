@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="score-box">
+    <span class="score-label">Score: </span>
+    <span class="score-text">0</span>
+  </div>
+  <canvas id="canvas"></canvas>
+  <div class="modal open">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <h4 class="modal-title">Game is over!!!</h4>
+      <div class="modal-text">
+        You've earned a <span class="modal-score">0</span> points.
+      </div>
+      <button class="modal-button">Play again</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+</html>
